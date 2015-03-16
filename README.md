@@ -1,5 +1,5 @@
 # Wordpress Nginx Configuration
-Files to create a Wordpress Multisite with subdomain support in Nginx.
+Files to create a Wordpress Multisite with **subdomain** support in Nginx.
 
 This configuration files have been builded from many sources, taking the best parts/tips and most updated snippets. Some of the source are:
 * [Wordpress - Nginx Wiki](http://wiki.nginx.org/Wordpress)
@@ -8,6 +8,16 @@ This configuration files have been builded from many sources, taking the best pa
 * [@perusio wordpress-nginx](https://github.com/perusio/wordpress-nginx) (outdated)
 * [Wordpress Multisite with Nginx - wpmudev](http://premium.wpmudev.org/blog/wordpress-multisite-wordpress-nginx/)
 * [Wordpress Nginx - rtCamp](https://rtcamp.com/wordpress-nginx/tutorials/)
+
+
+## Features
+* Nginx virtualhost
+* Nginx map to improve static files handling
+* Wordpress X-Accel-Redirect
+* Upstream to abstract backend connection(s) for `php`
+* Wordpress-nginx restrictions and security blocks
+* Nginx configurations that you can *plug-and-play*
+* Pretty permalinks ready
 
 
 ## Pre requisites
